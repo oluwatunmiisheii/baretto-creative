@@ -1,0 +1,10 @@
+.product__card {
+  margin: auto;
+  width: 440px;
+  position: relative;
+}
+
+.product__card-header {
+  background-color: #ffd966;
+  height: 300px;
+}

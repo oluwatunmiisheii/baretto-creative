@@ -1,0 +1,34 @@
+.about__product {
+  border-top: 1px solid #f2f8f7;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #f2f8f7;
+  margin-bottom: 2rem;
+  position: absolute;
+}
+
+.about-product__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #00866e;
+}
+
+.about__product-content {
+  font-size: 1rem;
+  color: #706f7d;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.more__about-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #00866e;
+  font-weight: bold;
+  width: 30%;
+  margin-top: 2rem;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+}

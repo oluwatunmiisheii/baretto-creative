@@ -1,0 +1,123 @@
+/* product card body */
+.product__card-body {
+  background-color: #fff;
+  margin-top: -3rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  z-index: 500;
+  padding: 1rem;
+}
+
+.product__image {
+  position: absolute;
+  top: 21%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 180px;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.product__title {
+  color: #767931;
+  margin-top: 3rem;
+  font-size: 24px;
+}
+
+.product__description {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.product__price-weight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.product__weight {
+  color: #706f7d;
+  font-weight: 500;
+}
+
+.product__price {
+  background-color: #f3f8f7;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.product__cta {
+  padding: 1.5rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.update__count {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f3f8f7;
+  padding: 20px 30px;
+  border-radius: 500px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.update__count button  {
+  color: #00866e;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.update__count button:disabled  {
+  cursor: not-allowed;
+}
+
+.update__cart-btn {
+  background-color: #00866e;
+  color: #fff;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 500px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delivery__details {
+  border-top: 1px solid #f2f8f7;
+  padding: 1.5rem 0rem !important;
+}
+
+.delivery__details li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delivery__details li:not(:first-child) {
+  margin-top: 0.5rem;
+}
+
+.delivery__details li .delivery__details-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.delivery__details li .delivery__details-content {
+  background-color: #00866e;
+  color: #fff;
+  padding: 0.5rem 0.8rem;
+  border-radius: 500px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
