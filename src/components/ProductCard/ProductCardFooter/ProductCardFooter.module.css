@@ -4,6 +4,7 @@
   border-bottom: 1px solid #f2f8f7;
   margin-bottom: 2rem;
   position: absolute;
+  box-shadow: 0 8px 2px -2px #f7f1f1;
 }
 
 .about-product__title {
