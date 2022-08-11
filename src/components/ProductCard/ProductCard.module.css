@@ -2,9 +2,11 @@
   margin: auto;
   width: 440px;
   position: relative;
+  margin-bottom: 5rem;
 }
 
 .product__card-header {
   background-color: #ffd966;
   height: 300px;
+  box-shadow: 0 8px 2px -2px #f7f1f1;
 }
